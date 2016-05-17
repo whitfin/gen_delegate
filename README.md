@@ -18,9 +18,11 @@ There's a very common pattern inside `GenServer` modules in which several functi
 
   1. Add `gen_delegate` to your list of dependencies in `mix.exs`:
 
-        def deps do
-          [{:gen_delegate, "~> 0.0.1"}]
-        end
+  ```elixir
+  def deps do
+    [{:gen_delegate, "~> 1.0.0"}]
+  end
+  ```
 
 ## Example Usage
 

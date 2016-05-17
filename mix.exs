@@ -23,7 +23,7 @@ defmodule GenDelegate.Mixfile do
         },
         maintainers: [ "Isaac Whitfield" ]
       },
-      version: "0.0.1",
+      version: "1.0.0",
       elixir: "~> 1.1",
       deps: deps,
       docs: [

@@ -96,7 +96,7 @@ It should be noted that this use case will be surprisingly rare, as you typicall
 
 Delegates work strictly with tuple messages for uniformity, and the function heads determine what your message should look like. This is in the form of `{ func_name, args... }`. For example if you were to use the `do_something/1` example above, you would simply send `GenServer.call(pid, { :do_something })`. Any arguments related to the `state` should not be passed as these arguments are wired automatically.
 
-```
+```elixir
 # here's our function
 def do_something(var_one, state, var_two) do
   "hello world"
@@ -116,6 +116,6 @@ If you feel something can be improved, or have any questions about certain behav
 
 If you *do* make changes to the codebase, please make sure you test your changes thoroughly.
 
-```elixir
+```bash
 $ mix test
 ```
